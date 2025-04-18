@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PokéAPI</title>
+    <script type="module" src="script.js" defer></script>
+</head>
+<body>
+    <h1>Explorateur de Pokémon</h1>
+
+    <input type="text" id="search" placeholder="Nom ou ID du Pokémon">
+    <button onclick="fetchPokemon()">Rechercher</button>
+    <button onclick="previousPokemon()">Précédent</button>
+    <button onclick="nextPokemon()">Suivant</button>
+
+    <div id="pokemon-info"></div>
+</body>
+</html>
